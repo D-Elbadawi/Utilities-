@@ -1,0 +1,392 @@
+Script started on 2023-04-17 21:32:00-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+include: command not found
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ sudo apt install git
+[?2004l[sudo] password for dekra: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libflashrom1 libftdi1-2
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb
+  git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git
+0 upgraded, 1 newly installed, 0 to remove and 151 not upgraded.
+Need to get 3,141 kB of archives.
+After this operation, 18.8 MB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://us.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.8 [3,141 kB]
+[33m0% [1 git 6,841 B/3,141 kB 0%][0m[33m37% [1 git 1,437 kB/3,141 kB 46%][0m[33m                                 100% [Working][0m              Fetched 3,141 kB in 1s (3,099 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package git.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 206395 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.34.1-1ubuntu1.8_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 20%][49m[39m [###########...............................................] 8Unpacking git (1:2.34.1-1ubuntu1.8) ...
+7[24;0f[42m[30mProgress: [ 40%][49m[39m [#######################...................................] 8Setting up git (1:2.34.1-1ubuntu1.8) ...
+7[24;0f[42m[30mProgress: [ 60%][49m[39m [##################################........................] 87[24;0f[42m[30mProgress: [ 80%][49m[39m [##############################################............] 8
+7[0;24r8[1A[J[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mssh-keygen -t ed25519 -C "<Github email>"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t ed25519 -C "<Github email>"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"<">"e>"l>"b>"a>"d>"a>"w>"i>"_>"1>"9>"8>"7>"@>"y>"a>"h>"o>"o>".>"c>"o>"m>"[C
+[?2004lGenerating public/private ed25519 key pair.
+Enter file in which to save the key (/home/dekra/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/dekra/.ssh/id_ed25519
+Your public key has been saved in /home/dekra/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:goYJbPXP9x0jiDac15jassNBTLNMCQLoG4XCnRg6t0A <elbadawi_1987@yahoo.com>
+The key's randomart image is:
++--[ED25519 256]--+
+|oE*o... .        |
+|*+.+o  =         |
+|Boo  .= o        |
+|.B + .+=o =      |
+|  * o oOS* o o   |
+| . .  .o* . o o  |
+|      .o.. . .   |
+|       oo        |
+|       ..        |
++----[SHA256]-----+
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mVM using ssh -T[27mVM using ssh -T[C[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C git@github.com
+[?2004lgit@github.com: Permission denied (publickey).
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ config --global user.email ""<">"e>"l>"b>"a>"d>"a>"w>"i>"_>"1>"9>"8>"7>"@>"y>"a>"h>"o>"o>".>"c>"o>"m>" [A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+[?2004lCommand 'config' not found, did you mean:
+  command 'confid' from snap confid (1.2.1)
+  command 'vconfig' from deb vlan (2.0.5ubuntu5)
+  command 'iconfig' from deb ipmiutil (3.1.8-1)
+  command 'cconfig' from deb xrootd-server (5.4.1-1)
+  command 'fconfig' from deb redboot-tools (0.7build4)
+  command 'kconfig' from deb kconfig-frontends (4.11.0.1+dfsg-6)
+  command 'kconfig' from deb kconfig-frontends-nox (4.11.0.1+dfsg-6)
+  command 'mconfig' from deb mono-devel (6.8.0.105+dfsg-3.2)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ config --global user.email "<elbadawi_1987@yahoo.com>" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgconfig --global user.email "<elbadawi_1987@yahoo.com>"[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [Ciconfig --global user.email "<elbadawi_1987@yahoo.com>"[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[Ctconfig --global user.email "<elbadawi_1987@yahoo.com>"[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[C[C config --global user.email "<elbadawi_1987@yahoo.com>"[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C
+
+[?2004l[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git config --global user.name ""<">"D>"e>"k>"r>"a>"[C[C
+[?2004l[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ mkdirb[K [7mUtilities[27mUtilities
+[?2004lmkdir: cannot create directory ‘Utilities’: File exists
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004l assigment23.txt    dek                            [0m[01;34mPictures[0m
+ assigment44.txt    [01;34mDekra[0m                          ProcessUsageReport-20230303
+ assigment4.txt     [01;34mDesktop[0m                        ProcessUsage.sh
+ assigment5        '~Directory1File1'              [01;34mPublic[0m
+ assigment51       '~Directory2File2'              README.md
+ assigmnet55       '~Directory3File4'              [37;41msecurity[0m
+ Assignment2        [01;34mDocuments[0m                      Security
+ Assignment22.txt   [01;34mDownloads[0m                     '~Security Test'
+ Assignment3        [01;34mgooal[0m                          [01;34msnap[0m
+ asterisk.nanorc    HeaderFile.h                   SourceFile1.c
+ b                  [01;34mhh.sh[0m                          SourceFile2.c
+ [01;34mbas[0m                InternetBlocker.sh             [01;36mSymbolicLink[0m
+ [01;34mbash[0m              'IOT1025 - Assignment 7.docx'   Task1.c
+ bb                 [01;32mmenu.sh[0m                        Task3.c
+ bb.nanorc          [01;34mMusic[0m                          [01;34mTemplates[0m
+ bb.txt             MyFile.txt                     [37;41mtest[0m
+ ccc.nanorc         MyHardLink                     [01;34mtt[0m
+ ccc.txt            MyLinkedFile                   [01;34mUtilities[0m
+ c.nanorc           Myprocesses                    utility_script
+ CurrentDate        MyProcesses.txt                [01;34mVideos[0m
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ lsmkdir Utilities
+[?2004l[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ sudo chmod -R777[K[K[K 777 [7mUtilities[27mUtilities
+[?2004l[sudo] password for dekra: 
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git init [7mUtilities[27mUtilities
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/dekra/Utilities/.git/
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ mv [7m~/.ssh/id_ed25519.pub [27m~/.ssh/id_ed25519.pub [7m/home/dekra/Utilities[27m/home/dekra/Utilities/
+[?2004l[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ mv ~/.ssh/id_ed25519.pub /home/dekra/Utilities/[C[C[C[C[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[7m/home/dekra/.ssh/id_ed25519[27m /home/dekra/Utilities/[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/home/dekra/.ssh/id_ed25519home/dekra/.ssh/id_ed25519 /home/dekra/Utilities/ [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lmv: cannot stat '/home/dekra/home/dekra/.ssh/id_ed25519': No such file or directory
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ mv ~/home/dekra/.ssh/id_ed25519 /home/dekra/Utilities/ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lmv: cannot stat '/home/dekra/home/dekra/.ssh/id_ed25519': No such file or directory
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ mv ~/home/dekra/.ssh/id_ed25519 /home/dekra/Utilities/ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit init Utilities[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit init Utilities
+[A
+[?2004lReinitialized existing Git repository in /home/dekra/Utilities/.git/
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git add .
+[?2004lerror: 'Dekra/' does not have a commit checked out
+fatal: adding files failed
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git add *
+[?2004lerror: 'Dekra/' does not have a commit checked out
+fatal: adding files failed
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git add *.init Utilitiesmv /home/dekra/.ssh/id_ed25519 /home/dekra/Utilities/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/home/dekra/.ssh/id_ed25519 /home/dekra/Utilities/ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/dekra/Utilities/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/[1P /home/dekra/Utilities/
+assigment23.txt              IOT1025 - Assignment 7.docx
+assigment44.txt              .lesshst
+assigment4.txt               .local/
+assigment5                   menu.sh
+assigment51                  .mozilla/
+assigmnet55                  Music/
+Assignment2                  MyFile.txt
+Assignment22.txt             MyHardLink
+Assignment3                  MyLinkedFile
+asterisk.nanorc              Myprocesses
+b                            MyProcesses.txt
+bas/                         .nanorc
+bash/                        Pictures/
+.bash_history                ProcessUsageReport-20230303
+.bash_logout                 ProcessUsage.sh
+.bashrc                      .profile
+bb                           Public/
+bb.nanorc                    README.md
+bb.txt                       security
+.cache/                      Security
+ccc.nanorc                   ~Security Test
+ccc.txt                      .selected_editor
+c.nanorc                     snap/
+--More--[K.config/                     SourceFile1.c
+--More--[KCurrentDate                  SourceFile2.c
+--More--[Kdek                          .ssh/
+--More--[KDekra/                       .sudo_as_admin_successful
+--More--[KDesktop/                     SymbolicLink
+--More--[K~Directory1File1             Task1.c
+--More--[K~Directory2File2             Task3.c
+--More--[K~Directory3File4             Templates/
+--More--[KDocuments/                   test
+--More--[KDownloads/                   .thunderbird/
+--More--[K.git/                        tt/
+--More--[K.gitconfig                   Utilities/
+--More--[K.gnupg/                      utility_script
+--More--[Kgooal/                       Videos/
+--More--[KHeaderFile.h                 .vim/
+--More--[Khh.sh/                       .viminfo
+--More--[KInternetBlocker.sh           
+]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ mv  /home/dekra/Utilities/
+[?2004lmv: missing destination file operand after '/home/dekra/Utilities/'
+Try 'mv --help' for more information.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ mv  /home/dekra/Utilities/[7m/home/dekra/Utilities/.git/[27m /home/dekra/Utilities//home/dekra/Utilities/.git/[C
+[?2004lmv: '/home/dekra/Utilities/.git/' and '/home/dekra/Utilities/.git' are the same file
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git add *
+[?2004lerror: 'Dekra/' does not have a commit checked out
+fatal: adding files failed
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git commit 
+[?2004lOn branch Dekra
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.config/[m
+	[31m.gitconfig[m
+	[31m.gnupg/[m
+	[31m.lesshst[m
+	[31m.local/[m
+	[31m.nanorc[m
+	[31m.profile[m
+	[31m.selected_editor[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.thunderbird/[m
+	[31m.vim/[m
+	[31m.viminfo[m
+	[31mAssignment2[m
+	[31mAssignment22.txt[m
+	[31mAssignment3[m
+	[31mCurrentDate[m
+	[31mDekra/[m
+	[31mDesktop/[m
+	[31mDownloads/[m
+	[31mHeaderFile.h[m
+	[31mIOT1025 - Assignment 7.docx[m
+	[31mInternetBlocker.sh[m
+	[31mMyFile.txt[m
+	[31mMyHardLink[m
+	[31mMyLinkedFile[m
+	[31mMyProcesses.txt[m
+	[31mMyprocesses[m
+	[31mProcessUsage.sh[m
+	[31mProcessUsageReport-20230303[m
+	[31mSecurity[m
+	[31mSourceFile1.c[m
+	[31mSourceFile2.c[m
+	[31mSymbolicLink[m
+	[31mTask1.c[m
+	[31mTask3.c[m
+	[31mUtilities/[m
+	[31massigment23.txt[m
+	[31massigment4.txt[m
+	[31massigment44.txt[m
+	[31massigment5[m
+	[31massigment51[m
+	[31massigmnet55[m
+	[31masterisk.nanorc[m
+	[31mb[m
+	[31mbas/[m
+	[31mbash/[m
+	[31mbb[m
+	[31mbb.nanorc[m
+	[31mbb.txt[m
+	[31mc.nanorc[m
+	[31mccc.nanorc[m
+	[31mccc.txt[m
+	[31mdek[m
+	[31mgooal/[m
+	[31mmenu.sh[m
+	[31msecurity[m
+	[31msnap/[m
+	[31mtest[m
+	[31mutility_script[m
+	[31m~Directory1File1[m
+	[31m~Directory2File2[m
+	[31m~Directory3File4[m
+	[31m~Security Test[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git add .
+[?2004lerror: 'Dekra/' does not have a commit checked out
+fatal: adding files failed
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit clone[27mgit clone [7mgit@github.com:D-Elbadawi/Dekra.git[27mgit@github.com:D-Elbadawi/Dekra.git
+[?2004lfatal: destination path 'Dekra' already exists and is not an empty directory.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit commit -m "first commit"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "first commit"
+[?2004lOn branch Dekra
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.bash_history[m
+	[31m.bash_logout[m
+	[31m.bashrc[m
+	[31m.cache/[m
+	[31m.config/[m
+	[31m.gitconfig[m
+	[31m.gnupg/[m
+	[31m.lesshst[m
+	[31m.local/[m
+	[31m.nanorc[m
+	[31m.profile[m
+	[31m.selected_editor[m
+	[31m.ssh/[m
+	[31m.sudo_as_admin_successful[m
+	[31m.thunderbird/[m
+	[31m.vim/[m
+	[31m.viminfo[m
+	[31mAssignment2[m
+	[31mAssignment22.txt[m
+	[31mAssignment3[m
+	[31mCurrentDate[m
+	[31mDekra/[m
+	[31mDesktop/[m
+	[31mDownloads/[m
+	[31mHeaderFile.h[m
+	[31mIOT1025 - Assignment 7.docx[m
+	[31mInternetBlocker.sh[m
+	[31mMyFile.txt[m
+	[31mMyHardLink[m
+	[31mMyLinkedFile[m
+	[31mMyProcesses.txt[m
+	[31mMyprocesses[m
+	[31mProcessUsage.sh[m
+	[31mProcessUsageReport-20230303[m
+	[31mSecurity[m
+	[31mSourceFile1.c[m
+	[31mSourceFile2.c[m
+	[31mSymbolicLink[m
+	[31mTask1.c[m
+	[31mTask3.c[m
+	[31mUtilities/[m
+	[31massigment23.txt[m
+	[31massigment4.txt[m
+	[31massigment44.txt[m
+	[31massigment5[m
+	[31massigment51[m
+	[31massigmnet55[m
+	[31masterisk.nanorc[m
+	[31mb[m
+	[31mbas/[m
+	[31mbash/[m
+	[31mbb[m
+	[31mbb.nanorc[m
+	[31mbb.txt[m
+	[31mc.nanorc[m
+	[31mccc.nanorc[m
+	[31mccc.txt[m
+	[31mdek[m
+	[31mgooal/[m
+	[31mmenu.sh[m
+	[31msecurity[m
+	[31msnap/[m
+	[31mtest[m
+	[31mutility_script[m
+	[31m~Directory1File1[m
+	[31m~Directory2File2[m
+	[31m~Directory3File4[m
+	[31m~Security Test[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit branch[27mgit branch Dekra
+[?2004lfatal: A branch named 'Dekra' already exists.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git branch Dekra[K[K[K[K[KElbadawi
+[?2004l[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git switch branch
+[?2004lfatal: invalid reference: branch
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git switch branchbranch Elbadawi[3PDekraElbadawi[2Pswitch branch[Kgit switch branch[K[K[K[K[K[KElbadawi
+[?2004lSwitched to branch 'Elbadawi'
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit remote add origin git@github.com:D-Elbadawi/Dekra.[27m[7mg[27m[7mit[27m[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git remote add origin git@github.com:D-Elbadawi/Dekra.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit remote add origin git@github.com:JeffMaitland/iot1[27m[7m0[27m[7m125.git[27m[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git remote add origin git@github.com:JeffMaitland/iot10125.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit push -u origin[27mgit push -u origin[1P origin[1P origin[1Porigin[C[C[C[C[C[C[C Elbadawi
+[?2004lUsername for 'https://github.com': D-Elbadawi
+Password for 'https://D-Elbadawi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/D-Elbadawi/Dekra.git/'
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git push origin Elbadawi
+[?2004lUsername for 'https://github.com': D-Elbadawi
+Password for 'https://D-Elbadawi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/D-Elbadawi/Dekra.git/'
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git push origin Elbadawiremote add origin git@github.com:JeffMaitland/iot10125.git[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CD-Elbadawi/Dekra.git[K[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CJeffMaitland/iot10125.git[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[30Ppush origin Elbadawi
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lUsername for 'https://github.com': D-Elbadawi
+Password for 'https://D-Elbadawi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/D-Elbadawi/Dekra.git/'
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit remote add origin git@github.com:D-Elbadawi/Dekra.[27m[7mg[27m[7mit[27m[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git remote add origin git@github.com:D-Elbadawi/Dekra.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit push -u origin main[27mgit push -u origin main[K[K[K[KElbadawi
+[?2004lUsername for 'https://github.com': D-ELBADAWI       lbadawi
+Password for 'https://D-Elbadawi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/D-Elbadawi/Dekra.git/'
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git push -u origin Elbadawiremote add origin git@github.com:D-Elbadawi/Dekra.git[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[27Ppush -u origin Elbadawi
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lUsername for 'https://github.com': D-Elbadawi
+Password for 'https://D-Elbadawi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/D-Elbadawi/Dekra.git/'
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git push -u origin Elbadawi
+[?2004lUsername for 'https://github.com': D-Elbadawi
+Password for 'https://D-Elbadawi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/D-Elbadawi/Dekra.git/'
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit remote add origin git@github.com:D-Elbadawi/Dekra.[27m[7mg[27m[7mit[27m[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git remote add origin git@github.com:D-Elbadawi/Dekra.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ [7mgit remote add origin git@github.com:D-Elbadawi/Dekra.[27m[7mg[27m[7mit[27m[A]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git remote add origin git@github.com:D-Elbadawi/Dekra.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git clon [7mgit@github.com:D-Elbadawi/Dekra.git[27mgit@github.com:D-Elbadawi/Dekra.git
+[?2004lgit: 'clon' is not a git command. See 'git --help'.
+
+The most similar commands are
+	clone
+	column
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ git clon git@github.com:D-Elbadawi/Dekra.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clon git@github.com:D-Elbadawi/Dekra.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clon git@github.com:D-Elbadawi/Dekra.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clon git@github.com:D-Elbadawi/Dekra.git[Ce git@github.com:D-Elbadawi/Dekra.git
+[?2004lfatal: destination path 'Dekra' already exists and is not an empty directory.
+[?2004h]0;dekra@dekra-VirtualBox: ~[01;32mdekra@dekra-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-17 23:08:00-04:00 [COMMAND_EXIT_CODE="128"]
